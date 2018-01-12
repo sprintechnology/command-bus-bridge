@@ -1,6 +1,6 @@
 <?php
 
-namespace Sprint\Bundle\CommandBusBundle\DependencyInjection\Compiler;
+namespace Sprint\Bundle\CommandBusBridgeBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;

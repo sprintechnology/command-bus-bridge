@@ -19,6 +19,12 @@ class DelegatesToMessageHandlerMiddlewareDecorator implements MessageBusMiddlewa
         $this->commandMessageHandler = $commandMessageHandler;
     }
 
+    /**
+     * @param object $message
+     * @param callable $next
+     *
+     * @throws \Exception
+     */
     public function handle($message, callable $next)
     {
         if ($message instanceof CommandMessage) {

@@ -2,7 +2,7 @@
 
 namespace Sprint\Bundle\CommandBusBridgeBundle;
 
-use Sprint\Bundle\CommandBusBundle\DependencyInjection\Compiler\CommandMappingPass;
+use Sprint\Bundle\CommandBusBridgeBundle\DependencyInjection\Compiler\CommandMappingPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
