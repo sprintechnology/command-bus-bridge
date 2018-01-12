@@ -7,8 +7,8 @@
             <argument type="service" id="service_container" />
         </service>
         <service id="sprint.command_bus.delegates_to_message_handler_middleware_decorator" decorates="simple_bus.command_bus.delegates_to_message_handler_middleware" class="Sprint\Bundle\CommandBusBridgeBundle\MessageBus\Message\Handler\DelegatesToMessageHandlerMiddlewareDecorator" public="true">
-            <argument type="service" id="mobireport.command_bus.delegates_to_message_handler_middleware_decorator.inner" />
-            <argument type="service" id="mobireport.command_bus.message_handler.command_handler" />
+            <argument type="service" id="sprint.command_bus.delegates_to_message_handler_middleware_decorator.inner" />
+            <argument type="service" id="sprint.command_bus.message_handler.command_handler" />
         </service>
     </services>
 </container>
